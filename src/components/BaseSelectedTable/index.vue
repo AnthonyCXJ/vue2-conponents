@@ -66,6 +66,25 @@
       ></el-pagination>
     </div>
   </div>
+
+  <!-- 调用方法 -->
+  <!-- <base-selected-table
+    ref="BaseSelectedTable"
+    :loading="loading"
+    :selected-data="selectedData"
+    :table-data="tableData"
+    :page-size="pageSize"
+    :total="total"
+    :columns="columns"
+    key-label="id"
+    :is-radio="isRadio"
+    @close="close"
+    @confirm="confirm"
+    @getData="getData"
+  >
+    <div slot="search">
+    </div>
+  </base-selected-table> -->
 </template>
 
 <script>
